@@ -1,0 +1,39 @@
+@import '../global/global';
+@import '../base/reset';
+
+body {
+  display: flex;
+  flex-direction: column;
+  color: $black;
+  font-family: $font-primary;
+}
+
+section {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+
+  @include bp(sm) {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  @include bp(md) {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.container {
+  padding-right: 1rem;
+  padding-left: 1rem;
+
+  @include bp(sm) {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  @include bp(md) {
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+}

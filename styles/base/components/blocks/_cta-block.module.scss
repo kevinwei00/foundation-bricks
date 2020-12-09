@@ -1,0 +1,27 @@
+@import '../../../global/global';
+
+.style {
+  width: 10rem;
+  margin-right: auto;
+  margin-left: auto;
+
+  :global {
+    .cta {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 1rem;
+      background-color: $primary;
+      color: $white;
+      text-decoration: none;
+      font: inherit;
+      line-height: 1;
+      outline: none;
+  
+      &:hover {
+        background-color: lighten($primary, 5%);
+      }
+    }
+  }
+}

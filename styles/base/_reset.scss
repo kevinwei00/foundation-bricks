@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  height: -webkit-fill-available;
+}
+
+body {
+  line-height: 1.5;
+  min-height: 100vh;
+  min-height: -webkit-fill-available; /* https://css-tricks.com/css-fix-for-100vh-in-mobile-webkit */
+}
+
+blockquote,
+body,
+fieldset,
+figure,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+ol,
+p,
+pre,
+ul {
+  margin: 0;
+}
+
+fieldset,
+legend {
+  padding: 0;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+  padding: 0;
+}
+
+img,
+svg,
+video,
+iframe {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}

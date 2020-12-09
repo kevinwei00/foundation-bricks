@@ -1,0 +1,26 @@
+.style {
+  display: block;
+
+  :global {
+    .heading-block {
+      &.swap-outer {
+        @media (min-width: 768px) {
+          display: none;
+        }
+      }
+
+      &.swap-inner {
+        display: none;
+        @media (min-width: 768px) {
+          display: block;
+        }
+      }
+    }
+
+    .text-block,
+    .list-block,
+    .cta-block {
+      margin-top: 1rem;
+    }
+  }
+}
