@@ -1,5 +1,29 @@
 {
   "name": "foundation-bricks",
   "author": "Kevin Wei",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "sass": "^1.27.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@storybook/addon-actions": "^6.1.10",
+    "@storybook/addon-essentials": "^6.1.10",
+    "@storybook/addon-links": "^6.1.10",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/react": "^6.1.10",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "eslint": "^7.11.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.21.4",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0"
+  }
 }
