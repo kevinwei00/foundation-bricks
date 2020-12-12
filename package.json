@@ -1,7 +1,13 @@
 {
-  "name": "foundation-bricks",
+  "name": "@kevinwei00/foundation-bricks",
   "author": "Kevin Wei",
-  "version": "0.1.0",
+  "version": "0.1.3",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "url": "git://github.com/kevinwei00/foundation-bricks.git"
+  },
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
