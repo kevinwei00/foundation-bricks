@@ -7,7 +7,8 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'build'),
     publicPath: '',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
+    globalObject: 'this'
   },
   module: {
     rules: [
