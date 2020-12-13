@@ -1,3 +1,5 @@
+import React from 'react';
+
 const HeadingBlock = ({ kicker, title, subtitle, classes }) => {
   if (!kicker && !title && !subtitle) {
     return null;

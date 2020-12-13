@@ -1,3 +1,4 @@
+import React from 'react';
 import css from '../../styles/base/components/blocks/_media-block.module.scss';
 
 const MediaBlock = ({ image, images, image_alt, video, video_options }) => {

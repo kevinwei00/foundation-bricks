@@ -1,3 +1,4 @@
+import React from 'react';
 import css from '../../styles/base/components/articles/_content-article.module.scss';
 import MediaBlock from '../blocks/MediaBlock';
 import HeadingBlock from '../blocks/HeadingBlock';

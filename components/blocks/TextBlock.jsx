@@ -1,3 +1,5 @@
+import React from 'react';
+
 const TextBlock = ({ text }) => {
   if (!text) {
     return null;

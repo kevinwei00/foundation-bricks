@@ -1,3 +1,4 @@
+import React from 'react';
 import css from '../../styles/base/components/blocks/_cta-block.module.scss';
 
 const CtaBlock = ({ cta_text, cta_link, cta_rel, cta_target, event_category, event_action }) => {

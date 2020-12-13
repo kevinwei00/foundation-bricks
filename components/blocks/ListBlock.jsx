@@ -1,3 +1,4 @@
+import React from 'react';
 import css from '../../styles/base/components/blocks/_list-block.module.scss';
 
 const ListBlock = ({ items, icon }) => {

@@ -1,3 +1,4 @@
+import React from 'react';
 import css from '../../styles/base/components/sections/_duo-section.module.scss';
 import MediaBlock from '../blocks/MediaBlock';
 import ContentArticle from '../articles/ContentArticle';
