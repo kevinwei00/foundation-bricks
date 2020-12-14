@@ -1,7 +1,7 @@
 {
   "name": "@kevinwei00/foundation-bricks",
   "author": "Kevin Wei",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "main": "build/main.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

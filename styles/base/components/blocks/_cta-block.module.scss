@@ -1,5 +1,3 @@
-@import '../../../global/global';
-
 .style {
   width: 10rem;
   margin-right: auto;
@@ -12,15 +10,15 @@
       align-items: center;
       width: 100%;
       padding: 1rem;
-      background-color: $primary;
-      color: $white;
+      background-color: #323537;
+      color: #fafaf7;
       text-decoration: none;
       font: inherit;
       line-height: 1;
       outline: none;
   
       &:hover {
-        background-color: lighten($primary, 5%);
+        background-color: lighten(#323537, 5%);
       }
     }
   }
