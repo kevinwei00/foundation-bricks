@@ -1,7 +1,7 @@
 @import '../global/global';
 @import '../base/reset';
 
-body {
+#__next > div {
   display: flex;
   flex-direction: column;
   color: $black;
